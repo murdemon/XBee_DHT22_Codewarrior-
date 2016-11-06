@@ -221,8 +221,10 @@ void get_sample(void)
 			
 			delay_ticks(500);
 			res = readDHT22(&AirTemp_i, &AirHumid_i);
-			AirTemp = AirTemp_i/10;
-			AirHumid = AirHumid_i/10;
+			AirTemp = AirTemp_i;
+			AirHumid = AirHumid_i;
+			AirTemp = AirTemp/10;
+			AirHumid = AirHumid/10;
 			printf("%.1f %.1f \n",AirTemp,AirHumid);
 			
 	SoilTemp = 3.3 / 4095 * adc0_value *75.006 - 40;
