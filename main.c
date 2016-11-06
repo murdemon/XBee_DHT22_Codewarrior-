@@ -32,7 +32,7 @@
  *   XPIN1 = VCC
  *   XPIN2 = uart0 [TX Pin]
  *   XPIN3 = uart0 [RX Pin]
- *   XPIN4 = gpio0 [GPIO Pin]
+ *   XPIN4 = <<UNUSED>>
  *   XPIN5 = special0 [Reset Pin]
  *   XPIN6 = special0 [RSSI PWM Pin]
  *   XPIN7 = <<UNUSED>>
@@ -46,7 +46,7 @@
  *   XPIN15 = special0 [Association Pin]
  *   XPIN16 = <<UNUSED>>
  *   XPIN17 = <<UNUSED>>
- *   XPIN18 = irq0 [IRQ Pin]
+ *   XPIN18 = gpio0 [GPIO Pin]
  *   XPIN19 = adc1 [ADC Pin]
  *   XPIN20 = adc0 [ADC Pin]
  *
